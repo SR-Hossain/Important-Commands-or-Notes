@@ -1,3 +1,4 @@
+```javascript
 setInterval(function(){
 	var i = 0;
 	var e = document.getElementsByClassName("x1i10hfl x6s0dn4 x78zum5 xwib8y2 x1y1aw1k x1n2onr6 xggy1nq");
@@ -13,3 +14,4 @@ setInterval(function(){
 
 
 }, 5000);
+```
