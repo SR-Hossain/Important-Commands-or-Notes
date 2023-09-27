@@ -3,6 +3,41 @@
 @name           StretchGPT: Extra-wide ChatGPT Conversations
 @version        4.0.5
 @description    Improves ChatGPT conversation readability by removing the narrow fixed content width and replacing it with subtle, adaptive padding for a consistent UX across all screen sizes. Toggleable sidebar UI enhancements also available for desktop viewports.
+@namespace      https://example.com/your-namespace
+@preprocessor   less
+@var checkbox   enableColorIndicators  "Color Indicators for User Prompts/Messages" 1
+@var select     indicatorColor "Indicator Color" {
+	"Purple Haze": "#807396",
+	"Japanese Violet": "#5B3256",
+	"Sharp Indigo": "#48007c",
+	"Cyber Grape": "#58427C",
+	"Super Blue Lavender": "#5a5b9f",
+	"Dark and Stormy": "#353f51",
+	"Deep Space": "#2D3142",
+	"Black Pearl": "#1e272c",
+	"Caviar": "#292a2d",
+	"Black Sabbath": "#220022",
+	"Tokyo Midnight": "#1a1a2e",
+	"Obsidian Ash": "#343434",
+	"Blue Moss": "#5D737E",
+	"Dusty Turquoise*": "#5a8a89",
+	"Aged Sage": "#8da572",
+	"Gameboy Teal": "#0ABFBC",
+	"Emerald": "#0f380f",
+	"Aztek": "#293432",
+	"Deep Jungle": "#1A2421",
+	"Ancient Gold": "#b59410",
+	"Cardamom": "#aaaa77",
+	"Earl Grey": "#a6978a",
+	"Cyprus": "#545a3e",
+	"Lobster Bisque": "#FFDAB9",
+	"Amaretto": "#ab6f60",
+	"Sakura Bloom": "#ff7b9c",
+	"FF06B5": "#FF06B5",
+}
+@var checkbox   hideAvatars "Hide Avatars" 1
+@var checkbox   mobileLayout "[Desktop Only] Mobile Message Layout on Desktop - Always show action buttons in a separate row below the text in ChatGPT responses (default behavior when 'Hide avatars' is active)" 1
+@var checkbox   sidebarTweaks "[Desktop Only] Sidebar/Chat History UI Tweaks" 1
 ==/UserStyle== */
 
 @-moz-document domain("chat.openai.com") {
