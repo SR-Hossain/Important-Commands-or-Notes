@@ -1,4 +1,5 @@
 ```css
+
 /* ==UserStyle==
 @name           StretchGPT: Extra-wide ChatGPT Conversations
 @version        4.0.5
@@ -47,6 +48,13 @@
         display: none;
     }
 
+    .cursor-pointer.absolute.right-6.rounded-full{
+        position: fixed !important;
+        left: 22.5%;
+        bottom: 10%;
+        z-index: 35462 !important;
+    }
+
     .relative.flex.h-full.flex-1.items-stretch {
         top: 0 !important;
     }
@@ -59,16 +67,13 @@
 
     }
 
-    * {
-        overflow-x: auto !important;
-    }
     .absolute.bottom-0.left-0.w-full.border-t  {
         position: fixed;
         left: 0;
         width: 25% !important;
         margin: 0 !important;
         min-height: 40px !important;
-        z-index: 5324352 !important;
+        z-index: 352 !important;
     }
 
     .flex-shrink-0.overflow-x-hidden.dark.bg-gray-900{
@@ -330,4 +335,5 @@
 
 	.sidebarTweaks();
 }
+
 ```
