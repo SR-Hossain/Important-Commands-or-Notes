@@ -70,7 +70,7 @@
     .absolute.bottom-0.left-0.w-full.border-t  {
         position: fixed;
         left: 0;
-        width: 25% !important;
+        width: 305px !important;
         margin: 0 !important;
         min-height: 40px !important;
         z-index: 352 !important;
