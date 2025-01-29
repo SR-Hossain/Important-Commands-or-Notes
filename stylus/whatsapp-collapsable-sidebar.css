@@ -1,0 +1,20 @@
+.two ._aigw:not(._as6h) {
+    flex: 0;
+}
+
+body:has(._aigw:hover, .xa1v5g2:hover) .two ._aigw:not(._as6h) {
+    flex: 0 0 30%;
+}
+
+body:has(._aigw:hover, .xa1v5g2:hover) #side {
+    width: 100% !important;
+    min-width: 300px !important;
+}
+
+img.x1n2onr6 {
+    filter: blur(5px);
+}
+
+img:hover {
+    filter: blur(0px);
+}
